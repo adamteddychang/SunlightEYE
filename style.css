@@ -5,13 +5,16 @@
 .nav-link{
  font-weight: bold;
 }
-.carousel{
-  width:640px; 
-  height:480px;
-  
-  margin: auto;
+.carousel-item {
+  height: 100vh;
+  min-height: 150px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.logo-image{
+#logoimg{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -20,12 +23,21 @@
 }
 
 body{
-  background-color: #6bff81;
+  background-color: white;
   text-align: center;
+
 }
 p{
-  font-family: arial;
-  font-size: 2rem;
+  font-family: times-new-roman;
+  font-size: 1.5rem;
+}
+.split-para      { display:block;  
+  margin:10px;
+}
+.split-para span { display:block;
+  float:right;
+  width:50%;
+  margin-left:10px;
 }
 table{
   font-size: 2rem;
@@ -33,4 +45,39 @@ table{
 .googlemap{
   display: flex;
   justify-content: flex-start;
+}
+.treatment{
+  text-align: left;
+  margin-left: 1.5rem;
+}
+
+.servicepages{
+  text-align: left;
+  padding-left: 50px;
+
+
+}
+
+.img_container{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+
+.img_container img {
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 320px) {
+
+   body { 
+      font-size: 2em; 
+   }
+
+}
+#trafficinfo{
+  text-align: left;
+  padding-left: 50px;
 }
