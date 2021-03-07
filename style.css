@@ -1,48 +1,93 @@
-
+#logoimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
 .navbar-custom{
   background-color: #2eff4d;
 }
-.nav-link{
- font-weight: bold;
+#logotext{
+  font-size: 2rem;
+  color: black;
 }
 
-.carousel-item {
-  width:100%;
-  margin:auto;
-  height: auto;  
+nav{
+  font-size: 1.15rem;
+}
+.nav-link{
+ font-weight: bold;
+ font-size: 1.4rem;
+}
+.carousel-inner {
+  width: 100%;
+  height: auto;
+  margin:auto;  
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-right: 5%;
-  padding-left: 5%;
+  
 }
-.vertical{
-  width:100%;
-  height:auto;
-  padding-left: 30%;
-  padding-right: 30%;
-}
-
-
-#logoimg{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-top: -6px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+	height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: black;
 }
 
-body{
-  background-color: white;
-  text-align: center;
+#mainpage{
+	text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#aboutus{
+	padding-left: 1em;
+	text-align: center;
+}
+#aboutusarticle{
+	text-align: left;
+	font-size: 1.5rem;
 
 }
 p{
-  font-family: times-new-roman;
+	line-height: 2.5rem;
+}
+#contactus{
+	text-align: center;
+}
+#trafficinfo{
+	font-size: 1.5rem;
+	text-align: left;
+	padding-left: 1em;
+}
+.img_container{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 20%;
+    height: auto;
+}
+#docdiscription{
+  text-align: left;
+  padding-left: 2rem;
   font-size: 1.5rem;
 }
+section>h1{
+  text-align: center;
+}
+.img_container img {
+    width: 100%;
+    height: auto;
+    }
 .split-para      { display:block;  
   margin:10px;
 }
@@ -51,48 +96,12 @@ p{
   width:50%;
   margin-left:10px;
 }
-table{
-  font-size: 2rem;
-}
-.googlemap{
-  display: flex;
-  justify-content: flex-start;
-}
-.treatment{
-  text-align: left;
-  margin-left: 1.5rem;
+
+.table_schedule{
+  font-size: 1.5rem;
 }
 
-.servicepages{
-  text-align: left;
-  padding-left: 50px;
 
-
-}
-
-.img_container{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-    width: 20%;
-    height: auto;
-}
-
-.img_container img {
-    width: 100%;
-    height: auto;
-}
-@media only screen and (max-width: 320px) {
-
-   body { 
-      font-size: 2em; 
-   }
-
-}
-#trafficinfo{
-  text-align: left;
-  padding-left: 50px;
-}
 .fa-facebook {
   padding: 0px;
   font-size: 50px;
@@ -101,34 +110,16 @@ table{
   text-decoration: none;
   color:#4267B2;
 }
-.myopia{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
+h1, h2{
+  text-align: center;
 }
-.ok{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
+.presbyopia, .myopia, .cata, .glaucoma{
+  font-size: 1.3rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
-.cata{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
-}
-.floaters{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
 
-}
-.glaucoma{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
-}
-.presbyopia{
-  text-align: left; 
-  padding-right: 10%; 
-  padding-left: 10%;"
+footer{
+  text-align: center;
 }
